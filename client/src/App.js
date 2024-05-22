@@ -1,9 +1,10 @@
 import './App.css';
+import AppRoutes from './routes/AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React App, happy hacking!</h1>
+      <AppRoutes />
     </div>
   );
 }
