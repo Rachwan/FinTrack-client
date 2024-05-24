@@ -14,7 +14,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Home = () => {
   const chartData = {
-    labels: ["Saving", "Expense", "Investment"],
+    labels: ["Saving", "Expenses", "Investment"],
     datasets: [
       {
         label: "%",

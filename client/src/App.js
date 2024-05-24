@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="App h-screen">
+    <div className="App">
       <AppRoutes />
       <Toaster />
     </div>
